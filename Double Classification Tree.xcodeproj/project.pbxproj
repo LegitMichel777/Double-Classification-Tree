@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F07BC41A21CF1A86002AF804 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F07BC41921CF1A86002AF804 /* main.cpp */; };
+		F07BC42221CF1BBF002AF804 /* lm7lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F07BC42121CF1BBF002AF804 /* lm7lib.cpp */; };
+		F0EC739E21DBAD6C003717D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0EC739D21DBAD6C003717D7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		F07BC41621CF1A86002AF804 /* Double Classification Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Double Classification Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F07BC41921CF1A86002AF804 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F07BC42021CF1BB7002AF804 /* lm7lib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lm7lib.hpp; sourceTree = "<group>"; };
+		F07BC42121CF1BBF002AF804 /* lm7lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lm7lib.cpp; sourceTree = "<group>"; };
+		F0EC739D21DBAD6C003717D7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		F07BC41821CF1A86002AF804 /* Double Classification Tree */ = {
 			isa = PBXGroup;
 			children = (
-				F07BC41921CF1A86002AF804 /* main.cpp */,
+				F07BC42121CF1BBF002AF804 /* lm7lib.cpp */,
+				F07BC42021CF1BB7002AF804 /* lm7lib.hpp */,
+				F0EC739D21DBAD6C003717D7 /* main.cpp */,
 			);
 			path = "Double Classification Tree";
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F07BC41A21CF1A86002AF804 /* main.cpp in Sources */,
+				F07BC42221CF1BBF002AF804 /* lm7lib.cpp in Sources */,
+				F0EC739E21DBAD6C003717D7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
