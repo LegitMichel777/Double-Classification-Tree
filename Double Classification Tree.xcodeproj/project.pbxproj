@@ -27,6 +27,7 @@
 		F07BC41621CF1A86002AF804 /* Double Classification Tree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Double Classification Tree"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07BC42021CF1BB7002AF804 /* lm7lib.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lm7lib.hpp; sourceTree = "<group>"; };
 		F07BC42121CF1BBF002AF804 /* lm7lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lm7lib.cpp; sourceTree = "<group>"; };
+		F0C44AAF25D22D9E00920FC0 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F0EC739D21DBAD6C003717D7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +45,7 @@
 		F07BC40D21CF1A86002AF804 = {
 			isa = PBXGroup;
 			children = (
+				F0C44AAF25D22D9E00920FC0 /* LICENSE */,
 				F07BC41821CF1A86002AF804 /* Double Classification Tree */,
 				F07BC41721CF1A86002AF804 /* Products */,
 			);
